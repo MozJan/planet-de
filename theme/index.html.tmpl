@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="generator" content="<TMPL_VAR generator ESCAPE="HTML">">
 	<link rel="stylesheet" href="planet.css" type="text/css">
-	<link rel="icon" href="http://www.mozilla.org/images/mozilla-16.png" type="image/png">
+	<link rel="icon" href="http://mozilla.de/favicon.ico" type="image/ico">
 	<TMPL_IF feedtype>
 		<link rel="alternate" href="<TMPL_VAR feed ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">" type="application/<TMPL_VAR feedtype>+xml">
 	</TMPL_IF>
@@ -24,11 +24,12 @@
     <nav id="headerbar" class="clearfix">
         <ul>
             <li><a href="http://www.mozilla.com/de/firefox/">Firefox</a></li>
+            <li><a href="http://www.thunderbird-mail.de/">Thunderbird</a></li>
             <li><a href="http://www.mozilla.org">mozilla.org</a></li>
         </ul>
     </nav>
 		<div style="text-align: center;">
-        	<h1>Wir sind <img src="http://mozilla.de/mozillade.png" width="492" height="85" alt="mozilla.de"/></h1>
+        	<h1>Wir sind <a href="http://mozilla.de/"><img src="../mozillade.png" width="492" height="85" alt="mozilla.de"/></a></h1>
             <h2>Die deutschsprachige Mozilla-Community</h2>
 		</div>
     <header>
@@ -37,10 +38,10 @@
     	    <nav id="navigation">
                 <ul>
 					<li><a href="http://www.mozilla.de/" title="mozilla.de">Start</a></li>
-					<li><a href="http://www.mozilla.de/?site=hilfe" title="Haben Sie Probleme mit Firefox & Co.? Wir helfen Ihnen weiter!">Hilfe</a></li>
-					<li><a href="http://www.mozilla.de/?site=mitmachen" title="Möglichkeiten, bei Mozilla mitzumachen">Mitmachen!</a></li>
-					<li><a href="http://www.mozilla.de/?site=kalender" title="Community-Kalender">Events</a></li>
-					<li><a href="http://www.mozilla.de/?site=ueber" title="Mehr über Mozilla im deutschsprachigen Raum erfahren">Über Uns</a></li>
+					<li><a href="http://www.mozilla.de/hilfe/" title="Haben Sie Probleme mit Firefox & Co.? Wir helfen Ihnen weiter!">Hilfe</a></li>
+					<li><a href="http://www.mozilla.de/mitmachen/" title="Möglichkeiten, bei Mozilla mitzumachen">Mitmachen!</a></li>
+					<li><a href="http://www.mozilla.de/kalender/" title="Community-Kalender">Events</a></li>
+					<li><a href="http://www.mozilla.de/ueber/" title="Mehr über Mozilla im deutschsprachigen Raum erfahren">Über uns</a></li>
                     <li><a href="http://planet.mozilla.de" class="active" title="Neuigkeiten aus der deutschsprachigen Mozilla-Welt lesen">Planet Mozilla (de)</a></li>
                 </ul>
             </nav>
@@ -106,7 +107,7 @@
 
 <footer>
     <div id="footer-wrapper">
-    <a href="http://mozilla.de/" class="footer-logo"><img src="http://www.mozilla.org/media/img/sandstone/footer-mozilla.png" alt="mozilla"></a>
+    <a href="http://mozilla.org/" class="footer-logo"><img src="http://www.mozilla.org/media/img/sandstone/footer-mozilla.png" alt="mozilla"></a>
 	   <p class="text">Die Seite planet.mozilla.de wird von <a href="mailto:<TMPL_VAR owner_email>"><TMPL_VAR owner_name></a> gewartet und von <a href="http://www.intertwingly.net/code/venus/">Planet Venus</a> angetrieben.
        Sofern nicht anders vermerkt, steht der Inhalt dieser Seite unter der <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution Share-Alike License v3.0</a> oder einer späteren Version. Mozilla®, mozilla.org®, Thunderbird®, SeaMonkey® und das Mozilla-Logo™ sind <a href="http://www.mozilla.org/foundation/trademarks/list.html">eingetragene Markenzeichen</a> der Mozilla Foundation.
     </p>
